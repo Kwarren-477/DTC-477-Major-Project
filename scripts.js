@@ -1,6 +1,8 @@
 
 //dad joke site functions//
 
+//urband dictoanry api//
+
 const slangurl = 'https://urban-dictionary7.p.rapidapi.com/v0/define?term=yeet';
 const slangoptions = {
 	method: 'GET',
