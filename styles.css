@@ -9,6 +9,12 @@ body {
   font-size: 14px;
 }
 
+div {
+	width: auto;
+	height: auto;
+	background-color: aqua;
+
+}
 
 
 animation: textbox1 2s ease 0s 1 normal forwards;
