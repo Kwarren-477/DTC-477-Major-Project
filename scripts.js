@@ -54,15 +54,10 @@ let ipLookupOptions = {};
 
 
  ///Hardware for DOM loading//
-    document.addEventListener("DOMContentLoaded", function () {
-        scrollingBox = document.querySelector("#futureInfo");
-        isMoving = false;
 
-        scrollingBox.addEventListener("mousedown", function (e) {
-            scrollLeftStart = scrollingBox.scrollLeft;
-            offsetLeftStart = e.pageX - scrollingBox.offsetLeft;
-            isMoving = true;
-        });
+ 
+ {(
+        
 
         scrollingBox.addEventListener("mouseleave", function (e) {
             isMoving = false;

@@ -15,7 +15,7 @@ justify-content: center;
 
 image {
 border: 15px solid;
-border-image: url(/img/border-image.png) 30 / 15px / 0px stretch;
+border-image: 
 }
 
 button {
