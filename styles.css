@@ -45,7 +45,12 @@ body {
 }
 
 
-
+image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
 
 
 {animation: textbox1 2s ease 0s 1 normal forwards;}
