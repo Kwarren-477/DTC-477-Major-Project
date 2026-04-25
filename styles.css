@@ -15,13 +15,14 @@ background: linear-gradient(45deg, #D55E00 0%, #0072B2 100%);
 
 .container {
 	text-align: center;
-	background: black;
-	background-color: aliceblue;
 }
 
 
-button {
-	padding: 12px 30px;
+
+.button {
+	align-items: center;
+	justify-content: center;
+	padding: 20px 30px;
 	font-size: 18px;
 	border-radius: 5px;
 	margin: 20px 10px;
@@ -30,7 +31,6 @@ button {
 -o-transform: scale(1.4) translate(0px, 13px);
 -ms-transform: scale(1.4) translate(0px, 13px);
 transform: scale(1.4) translate(0px, 13px);
-}
 }
 
 button:hover {
