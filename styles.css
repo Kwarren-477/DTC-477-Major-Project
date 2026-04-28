@@ -9,7 +9,7 @@ justify-content: center;
 background: #D55E00;
 background: -moz-linear-gradient(45deg, #D55E00 0%, #0072B2 100%);
 background: -webkit-linear-gradient(45deg, #D55E00 0%, #0072B2 100%);
-background: linear-gradient(45deg, #D55E00 0%, #0072B2 100%);
+background: linear-gradient(45deg, #D55E00 0%, #0072B2 100%)
 
 }
 
@@ -20,6 +20,16 @@ background: linear-gradient(45deg, #D55E00 0%, #0072B2 100%);
 	left: 0;
 	text-align: center;
 	z-index: 100;
+	
+}
+
+#newJoke {
+border-color: black;
+
+}
+
+#copyJoke{
+	border-color: black;
 }
 
 
@@ -41,6 +51,19 @@ transform: scale(1.4) translate(0px, 13px);
 
 button:hover {
 	background: lightcyan
+}
+
+.zoom {
+  padding: 50px;
+  background-color: whitesmoke;
+  transition: transform .2s; /* Animation */
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.5); 
 }
 
 
@@ -72,6 +95,11 @@ h1 {
 	right: 10px;
 	padding: 10px ;
 	background-color:aliceblue;
+	border-radius: 5px;
+}
+
+#slangButton:hover {
+	background:whitesmoke
 }
 
 img {
@@ -100,11 +128,7 @@ slang.html {
 }
 
 h2 {
-	position: absolute;
 	text-align: center;
-	display: center;
-	align-items: top;
-	justify-content: center;
 
 }
 
@@ -114,6 +138,13 @@ h2 {
 	right: 10px;
 	padding: 10px ;
 	background-color:aliceblue;
+	border-color: black;
+	border-radius: 5px;
+}
+
+
+#dadJokelink:hover {
+	background-color: whitesmoke;
 }
 
 {animation: textbox1 2s ease 0s 1 normal forwards;}
