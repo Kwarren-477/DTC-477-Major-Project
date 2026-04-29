@@ -14,6 +14,27 @@ body {
 	background: linear-gradient(45deg, #D55E00 0%, #0072B2 100%)
 }
 
+img {
+	position: absolute;
+	height: 100vh;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 1;
+}
+
+#backgroundSquare {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: 100vh;
+	width: 100vh;
+	background-color: white;
+	opacity: 0.5;
+	z-index: 0;
+}
+
 .container {
 	position: absolute;
 	width: 100%;
@@ -32,8 +53,6 @@ body {
 #copyJoke {
 	border-color: black;
 }
-
-
 
 
 .button {
@@ -111,17 +130,6 @@ body {
 	border-radius: 15px;
 }
 
-#backgroundSquare {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	height: 100vh;
-	width: 100vh;
-	background-color: white;
-	opacity: 0.5;
-	z-index: 0;
-}
 
 h1 {
 	text-align: center;
@@ -141,19 +149,9 @@ h1 {
 	background: whitesmoke
 }
 
-img {
-	position: absolute;
-	height: 100vh;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	z-index: 1;
-}
-
-
 
 #slangHeading {
-	position: fixed;
+	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
