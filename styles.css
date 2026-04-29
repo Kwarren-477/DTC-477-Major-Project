@@ -124,7 +124,7 @@ img {
 	z-index: 0;
 }
 
-slang.html {
+body#slang {
 	background-image: url("Dictionary page.jpg") no-repeat scroll 0 0;
 }
 
