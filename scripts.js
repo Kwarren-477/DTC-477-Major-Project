@@ -61,8 +61,17 @@ document.addEventListener("DOMContentLoaded", function(){
 
     getJokes();
 
-function myFunction() {
-  document.getElementById("newJoke").innerHTML;
+  document.getElementById("newJoke").addEventListener("click", function(){
+    getJokes();
+  });
+
+document.getElementById("copyJoke").addEventListener("click", function(){
+    saveJokes();
+  });
+
+  document.getElementById("slangSearch").addEventListener("submit", function(){
+    slangSearch();
+  });
 
 
 });
@@ -71,21 +80,8 @@ function myFunction() {
 /*save Joke function*/
 
 function saveJokes() {
-
-
-     console.log(result);
-        document.querySelector("#saveJokes").innerHTML = result[1].save;
-
-    });
-
-document.addEventListener("DOMContentLoaded", function(){
-
-    saveJokes();
-
-function myFunction() {
-  document.getElementById("copyJoke").innerHTML
-
-});
+    
+}
 
 
 /*Dictonary Def Area*/
