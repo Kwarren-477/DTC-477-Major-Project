@@ -1,17 +1,20 @@
 
-/*Dad Joke main screen code*//
+/*Dad Joke main screen code*/
+
 body {
 	margin: 0;
 	padding: 0;
 	font-family: "Inter", sans-serif;
 	height: 100vh;
+	width: 100vh;
 	display: center;
 	align-items: top;
 	justify-content: center;
 	background: #D55E00;
 	background: -moz-linear-gradient(45deg, #D55E00 0%, #0072B2 100%);
 	background: -webkit-linear-gradient(45deg, #D55E00 0%, #0072B2 100%);
-	background: linear-gradient(45deg, #D55E00 0%, #0072B2 100%)
+	background: linear-gradient(45deg, #D55E00 0%, #0072B2 100%);
+
 }
 
 img {
@@ -29,7 +32,6 @@ img {
 	left: 50%;
 	transform: translate(-50%, -50%);
 	height: 100vh;
-	width: 100vh;
 	background-color: white;
 	opacity: 0.5;
 	z-index: 0;
@@ -41,7 +43,7 @@ img {
 	bottom: 20px;
 	left: 0;
 	text-align: center;
-	z-index: 100;
+	z-index: 1;
 
 }
 
@@ -54,7 +56,7 @@ img {
 	border-color: black;
 }
 
-
+/*dad jok buttons*/
 .button {
 	align-items: bottom;
 	justify-content: center;
@@ -91,7 +93,31 @@ button:hover {
 	background-color: whitesmoke;
 }
 
-	{
+
+#dadJokelink {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	padding: 10px;
+	background-color: aliceblue;
+	border-color: black;
+	border-radius: 5px;
+}
+
+/*Joke Text*/
+
+#jokeText{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: auto;
+	z-index: 2;
+}
+
+/*animation code*/
+
+{
 	animation: textbox1 2s ease 0s 1 normal forwards;
 }
 
@@ -123,7 +149,7 @@ button:hover {
 	}
 }
 
-//*Slang Dictonary Lookup codeing*//
+/*Slang Dictonary Lookup codeing*/
 
 body {
 	font-size: 14px;
@@ -133,7 +159,11 @@ body {
 
 h1 {
 	text-align: center;
-	z-index: 10;
+	z-index: 1;
+}
+
+h2 {
+	text-align: center;
 }
 
 #slangButton {
@@ -155,8 +185,8 @@ h1 {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	height: 20vh;
-	width: 100vh;
+	height: auto;
+	width: 50vh;
 	background-color: white;
 	z-index: 0;
 }
@@ -164,19 +194,4 @@ h1 {
 body#slang {
 	background: url("Dictonary Page.png") no-repeat scroll 0 0;
 	background-size: cover;
-}
-
-h2 {
-	text-align: center;
-
-}
-
-#dadJokelink {
-	position: absolute;
-	top: 10px;
-	right: 10px;
-	padding: 10px;
-	background-color: aliceblue;
-	border-color: black;
-	border-radius: 5px;
 }
