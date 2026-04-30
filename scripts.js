@@ -56,6 +56,7 @@ function getJokes() {
 
 }
 
+/*loading DOM code*/
 
 document.addEventListener("DOMContentLoaded", function(){
 
@@ -79,14 +80,19 @@ document.getElementById("copyJoke").addEventListener("click", function(){
 
 /*save Joke function*/
 
-function saveJokes() {
-    
+function copyPassage() {
+  var jokeText = document.getElementById("saveJoke");
+  window.getSelection().selectAllChildren(saveJokes);
+  document.copy;
+  alert("Copied the text: " + copyText.innerText);
 }
+
+    
 
 
 /*Dictonary Def Area*/
 
 function slangSearch() {
     console.log(result);
-    document.querySelector("#searchWord").innerHTML = result[0].search;
+    document.querySelector("#slangSearch").innerHTML = result[0].search;
 }
