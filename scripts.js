@@ -61,11 +61,12 @@ document.addEventListener("DOMContentLoaded", function(){
 
     getJokes();
 
-  document.querySelector("#newJoke").addEventListener("click", getJokes(){
+function myFunction() {
+  document.getElementById("newJoke").innerHTML;
+
 
 });
 
-}
 
 /*save Joke function*/
 
@@ -81,9 +82,15 @@ document.addEventListener("DOMContentLoaded", function(){
 
     saveJokes();
 
-  document.querySelector("#copyJoke").addEventListener("click", saveJokes(){
+function myFunction() {
+  document.getElementById("copyJoke").innerHTML
 
 });
 
-}
 
+/*Dictonary Def Area*/
+
+function slangSearch() {
+    console.log(result);
+    document.querySelector("#searchWord").innerHTML = result[0].search;
+}
