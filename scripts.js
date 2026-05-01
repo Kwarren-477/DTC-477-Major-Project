@@ -81,10 +81,17 @@ document.getElementById("copyJoke").addEventListener("click", function(){
 /*save Joke function*/
 
 function copyPassage() {
-  var jokeText = document.getElementById("saveJoke");
-  window.getSelection().selectAllChildren(saveJokes);
+  var copyText = document.getElementById("copyJoke");
+
+  window.getSelection().selectAllChildren(copyJokes);
   document.copy;
+
+  textToCopy = “Hey let’s copy this joke!”;
+  
+  navigator.clipboard.writeText(textToCopy);
+
   alert("Copied the text: " + copyText.innerText);
+
 }
 
     
