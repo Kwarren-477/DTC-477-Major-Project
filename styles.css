@@ -37,6 +37,8 @@ img {
 	z-index: 0;
 }
 
+
+
 .container {
 	position: absolute;
 	width: 100%;
@@ -45,6 +47,16 @@ img {
 	text-align: center;
 	z-index: 1;
 
+}
+
+.box {
+  width:250px;
+  padding-top:5px;
+  border-style:solid;
+  border-color:#336699;
+  border-width:1px;
+  padding-left:3px;
+  padding-bottom:10px;
 }
 
 #newJoke {
@@ -115,6 +127,16 @@ button:hover {
 	z-index: 2;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	font-size: 12px;
+}
+
+.box {
+  width:250px;
+  padding-top:5px;
+  border-style:solid;
+  border-color:#336699;
+  border-width:1px;
+  padding-left:3px;
+  padding-bottom:10px;
 }
 
 /*animation code*/

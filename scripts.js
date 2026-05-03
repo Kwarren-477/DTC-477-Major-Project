@@ -85,12 +85,10 @@ function copyPassage() {
 
   window.getSelection().selectAllChildren(copyJokes);
   document.copy;
-
-  textToCopy = “Hey let’s copy this joke!”;
   
-  navigator.clipboard.writeText(textToCopy);
+  navigator.clipboard.writeText(copyText.value);
 
-  alert("Copied the text: " + copyText.innerText);
+  alert("Copied the text: " + copyText.value);
 
 }
 
