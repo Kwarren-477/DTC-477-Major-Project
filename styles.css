@@ -129,17 +129,19 @@ button:hover {
 	font-size: 12px;
 }
 
-.box {
-  width:250px;
-  padding-top:5px;
-  border-style:solid;
-  border-color:#336699;
-  border-width:1px;
-  padding-left:3px;
-  padding-bottom:10px;
-}
+
 
 /*animation code*/
+
+.text-box {
+  /* Basic styling */
+  padding: 15px;
+  border: 1px solid #827aee;
+  
+  /* Animation properties */
+  animation: fadeIn 0.5s ease-in forwards;
+}
+
 
 {
 	animation: textbox1 2s ease 0s 1 normal forwards;
@@ -158,20 +160,6 @@ button:hover {
 }
 
 	{
-	animation: textbox2 2s ease 0s 1 normal forwards;
-}
-
-@keyframes textbox2 {
-	0% {
-		opacity: 0;
-		transform: translateX(50px);
-	}
-
-	100% {
-		opacity: 1;
-		transform: translateX(0);
-	}
-}
 
 /*Slang Dictonary Lookup codeing*/
 
